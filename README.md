@@ -11,6 +11,7 @@ ___
 ## Collaborators
 
 #### 1.https://github.com/amalvishwajith
+<img src="https://firebasestorage.googleapis.com/v0/b/project-data-725cb.appspot.com/o/GitHub%2Famalvishwajith.jpg?alt=media&token=ad027bc7-ebfa-4959-bf7f-2ca6734a1894" alt="Amal" width="200"/>
 ![Amal](https://firebasestorage.googleapis.com/v0/b/project-data-725cb.appspot.com/o/GitHub%2Famalvishwajith.jpg?alt=media&token=ad027bc7-ebfa-4959-bf7f-2ca6734a1894)
 #### 2.https://github.com/vishmi19
 ![Vishmila](https://firebasestorage.googleapis.com/v0/b/project-data-725cb.appspot.com/o/GitHub%2Fvishmila.jpg?alt=media&token=d11cc1c3-9d3b-4cf7-95b5-f97321ed56b8)
