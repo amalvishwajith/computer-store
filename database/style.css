@@ -1,0 +1,84 @@
+body{
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.05'%3E%3Cpolygon fill='%23e4e4e4' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23c6c6c6' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23a1a1a1' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23727272' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23000000' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+  /* ==================================================================== FOOTER ============================================================ */
+  /* ======================================================================================================================================== */
+
+  .AVfooter {
+    background-color: #292929;
+  }
+
+
+
+  .AVfooter .A1 #title {
+    color: #f44336;
+    font-size: 35px;
+  }
+  .AVfooter .A1 #sub {
+    color: gray;
+    font-size: 16px;
+  }
+  .AVfooter .A1 p {
+    color: #aaa7a7;
+    font-size: 16px;
+  }
+
+
+
+  .AVfooter .A2 h5 {
+    color: white;
+  }
+  .AVfooter .A2 p {
+    color: #aaa7a7;
+    font-size: 14px;
+    margin: 0px 0px 0px;
+  }
+
+
+
+  .AVfooter .A3 h5 {
+    color: white;
+  }
+  .AVfooter .A3 a {
+    color: #aaa7a7;
+    font-size: 14px;
+    margin-right: 20px;
+  }
+  .AVfooter .A3 .f:hover {
+    color: #4267B2;
+  }
+  .AVfooter .A3 .y:hover {
+    color: #c4302b;
+  }
+  .AVfooter .A3 .l:hover {
+    color: #0e76a8;
+  }
+  .AVfooter .A3 .t:hover {
+    color: #00acee;
+  }
+
+
+  .AVfooter .A4  {
+    color: white;
+  }
+  .AVfooter .A4 p {
+    font-size: 16px;
+    color: #aaa7a7;
+    border-top: 2px solid white;
+    margin-right: 25%;
+  }
+
+
+
+
+  .AVfooter .A5 {
+    font-size: 16px;
+    color: #aaa7a7;
+  }
+
+  /* ================================================================ END FOOTER ============================================================ */
+  /* ======================================================================================================================================== */
