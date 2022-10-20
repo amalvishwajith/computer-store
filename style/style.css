@@ -1,0 +1,332 @@
+/* ==================================================================== Upper head ============================================================ */
+/* ======================================================================================================================================== */
+
+.AVuphead p {
+  font-family:NEWACADEMY;
+  font-size: 35px;
+  letter-spacing: -4px;
+  word-spacing: 1px;
+  float: left;
+}
+.AVuphead a{
+  font-size: 20px;
+  color: black;
+}
+.AVuphead input{
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 80%;
+  border: 2px solid #239657;
+  color: #000000;
+  outline: none;
+}
+.AVuphead input:focus {
+  border: 2px solid #dd453a;
+  border-radius: 5px;
+}
+.AVuphead #macc,#mcart{
+  visibility: hidden;
+}
+@media only screen and (max-width: 1200px) {
+  .AVuphead p{
+    font-size: 25px;
+  }
+  .AVuphead a{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+      .AVuphead #dropdownMenuLink{
+        font-size: 50px;
+      }
+      .AVuphead #macc,#mcart{
+        visibility: visible;
+        float: right;
+        font-size: 30px;
+        margin-right: 15px;
+      }
+      .AVuphead p{
+        font-size: 25px;
+      }
+
+}
+
+
+
+
+/* ==================================================================== END ============================================================ */
+/* ======================================================================================================================================== */
+
+
+
+/* ------------------------------------------------------------------STYLE FOR DROPDOWN----------------------------------------------------------------------- */
+
+.dropbtn {
+    background-color: #000000;
+    color: white;
+    padding: 10px 25px 10px 25px ;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropbar {
+    float: left;
+  }
+  
+  .dropdown-content {
+    margin: 0% 25% 0%;
+    display: block;
+    padding-top: 0px;
+    visibility: hidden;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position:absolute;
+    background-color: #000000;
+    color: white;
+    height: 0px;
+    opacity: 0;
+    width: 50%;
+    left: 0;
+    transition-property: height;
+    transition-duration: .5s;
+    transition-property: opacity;
+    transition-duration: .5s;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+    overflow: hidden;
+  }
+  
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 8px;
+    text-decoration: none;
+    display: block;
+
+  }
+  .mobile{
+    display: none;
+  }
+  
+  .dropdown-content a:hover {border:2px solid rgb(67, 196, 67);border-radius: 7px;}
+  
+  .dropbar:hover .dropdown-content {visibility: visible; height:auto;opacity: 1;background-color:rgba(0, 0, 0, 0.5);}
+  
+  .dropbar:hover .dropbtn {background-color: #35b331;}
+
+  /* ------------------------------------------------------------------END STYLE FOR DROPDOWN----------------------------------------------------------------------- */
+  
+  .AVparts a {
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+  .AVparts img {
+    padding-right: 20px;
+    width: 70px;
+  }
+  .AVnev{
+      display: flex;
+      justify-content: center;
+  }
+
+  /* ========================================MOBILE==================================================== */
+
+  @media only screen and (max-width: 768px) {
+    .AVnev{
+      display: block;
+  
+    }
+    .desktop {
+      display: none;
+    }
+    .mobile{
+      display: block;
+    }
+
+    .dropbar{
+      width: 100%;
+    }
+    .dropbtn{
+      width: 100%;
+    }
+
+    .dropdown-content {
+      visibility: hidden;
+      width: 90%;
+    }
+     .AVnev img {
+       visibility: hidden;
+     }
+
+    .dropbar:hover .dropdown-content {visibility: visible;position:relative;left: 0px; height:auto;opacity: 1;background-color:rgba(0, 0, 0, 0.5);}
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ==================================================================== FOOTER ============================================================ */
+  /* ======================================================================================================================================== */
+
+  .AVfooter{
+    background-color: #292929;
+  }
+
+
+
+  .AVfooter .A1 #title {
+    color: #f44336;
+    font-size: 35px;
+  }
+  .AVfooter .A1 #sub {
+    color: gray;
+    font-size: 16px;
+  }
+  .AVfooter .A1 p {
+    color: #aaa7a7;
+    font-size: 16px;
+  }
+
+
+
+  .AVfooter .A2 h5 {
+    color: white;
+  }
+  .AVfooter .A2 p {
+    color: #aaa7a7;
+    font-size: 14px;
+    margin: 0px 0px 0px;
+  }
+
+
+
+  .AVfooter .A3 h5 {
+    color: white;
+  }
+  .AVfooter .A3 a {
+    color: #aaa7a7;
+    font-size: 14px;
+    margin-right: 20px;
+  }
+  .AVfooter .A3 .f:hover {
+    color: #4267B2;
+  }
+  .AVfooter .A3 .y:hover {
+    color: #c4302b;
+  }
+  .AVfooter .A3 .l:hover {
+    color: #0e76a8;
+  }
+  .AVfooter .A3 .t:hover {
+    color: #00acee;
+  }
+
+
+  .AVfooter .A4  {
+    color: white;
+  }
+  .AVfooter .A4 p {
+    font-size: 16px;
+    color: #aaa7a7;
+    border-top: 2px solid white;
+    margin-right: 25%;
+  }
+
+
+
+
+  .AVfooter .A5 {
+    font-size: 16px;
+    color: #aaa7a7;
+  }
+
+  /* ================================================================ END FOOTER ============================================================ */
+  /* ======================================================================================================================================== */
+
+
+
+
+
+
+  /* =============================================== MOBILE NEV ======================================================== */
+
+   .AVm {
+    width: 16.6%;
+    float: left;
+    padding: 3px;
+    border: 0px;
+  }
+  .AVm button{
+    color: #000000;
+  }
+
+  .AVc {
+    width: 100%;
+    border: 0px;
+  }
+
+  .cc img{
+    width: 50px;
+  }
+
+  .cc div{
+    float: left;
+    width: 50%;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid gainsboro;
+  }
+
+  .cc a{
+    color: #000000;
+  }
+  .card a{
+    color: black;
+  }
+
+
+  /* ========================================================================================================================== */
+
+  /* ========================================================== owl-carousel ======================================================================== */
+
+  .owl-carousel .item div{
+    height: 400px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 3px;
+  }
+  .owl-carousel .item div a{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  .owl-carousel .item div p{
+    padding-left: 10px;
+  }
+  .owl-carousel .item div h5{
+    padding-left: 10px;
+  }
+
+  @media only screen and (max-width: 768px) {
+
+
+
+}
+
+body{
+  background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.05'%3E%3Cpolygon fill='%23e4e4e4' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23c6c6c6' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23a1a1a1' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23727272' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23000000' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
